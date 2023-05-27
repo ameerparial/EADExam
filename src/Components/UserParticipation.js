@@ -13,9 +13,10 @@ class UserParticipation extends React.Component {
     handleClick() {
       console.log('submitted option', this.state.selectedOption);
       //Update vote where select value is matching
+      this.props.updateVote(this.state.selectedOption);
+
       console.log(this.state.selectedOption);
       this.setState({submitted:true});
-
     }
   
     handleOnChange(e) {
