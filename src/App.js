@@ -21,10 +21,15 @@ function App() {
 
   return (
     <>
-      {/* <h1>Polling App</h1> */}
+
+      {/* Task A */}
+
+      <h1>Polling App</h1>
       {/* <PollDisplay question={questionAnswers}/>
-      <UserParticipation question={questionAnswers} username='Ameer Hamza' updateVote={updateVote}/>
-      <AnotherUserParticipation/> */}
+      <UserParticipation question={questionAnswers} username='Ameer Hamza' updateVote={updateVote}/> */}
+      {/* <AnotherUserParticipation question={questionAnswers}/> */}
+
+      {/* Task B */}
       <Timer/>
       
     </>
