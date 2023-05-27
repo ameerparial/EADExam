@@ -1,6 +1,7 @@
 import './App.css';
 import AnotherUserParticipation from './Components/AnotherUserParticipation';
 import PollDisplay from './Components/PollDisplay';
+import Timer from './Components/Timer';
 import UserParticipation from './Components/UserParticipation';
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
 
   return (
     <>
-      <h1>Polling App</h1>
-      <PollDisplay question={questionAnswers}/>
+      {/* <h1>Polling App</h1> */}
+      {/* <PollDisplay question={questionAnswers}/>
       <UserParticipation question={questionAnswers} username='Ameer Hamza' updateVote={updateVote}/>
-      <AnotherUserParticipation/>
+      <AnotherUserParticipation/> */}
+      <Timer/>
       
     </>
     
